@@ -1,0 +1,141 @@
+/* Para todo o código */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f7f1;
+    color: #1e291f;
+}
+/* Cabeçalho e menu de navegação*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+/* Logo e Nome do Site*/
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 62px;
+    height: 60px;
+}
+.logo span{
+    font-size: 45px;
+    font-weight: bold;
+    color: #263628;
+}
+/* Menu de Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #263628;
+    font-weight: 500;
+}
+/* Conteúdo Principal */
+main {
+    padding: 40px;
+}
+.conteudo {
+    display: flex;
+    background-color: #dce9d5;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+.texto-esquerda { /* Todo conteúdo à esquerda */
+    flex: 1;
+    padding: 40px;
+    place-content: center center;
+    text-align: center;
+    padding-bottom: 0%;
+    font-family:monospace;
+}
+.texto-esquerda h1 { /* Titulo à esquerda */
+    font-size: 40px;
+    color: #263628;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.texto-esquerda p { /* Texto à esquerda */
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.conteudo .texto-esquerda .botao a {
+    display: inline-block;
+    background-color: #3c6e47;
+    color:white;
+    padding: 13px 26px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.conteudo .texto-esquerda img {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 35px;
+}
+.texto-direita {
+    flex: 1;
+    background-color: #5e9c67;
+    color: white;
+    padding: 42px;
+    text-align: center;
+    position: relative;
+}
+.texto-direita h2 { /* Título a direita */
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:monospace;
+}
+.imgPets {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.imgPets img {
+    margin-top: 35px;
+    height: 265px;
+    object-fit: contain;
+}
+footer {
+    background-color: #263628;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .roda1 {
+    font-size: 20px;
+  }
+  
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0 5px;
+    font-size: 15px;
+}
