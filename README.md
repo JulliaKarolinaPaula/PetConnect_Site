@@ -1,4 +1,4 @@
-# PetConnect_Site
+# PetConnect_Site (Projeto Inacabado)
 # 🐾 PetConnect - Página Inicial
 
 Bem-vindo ao repositório da **página inicial do PetConnect**, um projeto dedicado a conectar animais abandonados com pessoas dispostas a adotá-los, além de promover serviços gratuitos e informações úteis sobre cuidados com pets.
